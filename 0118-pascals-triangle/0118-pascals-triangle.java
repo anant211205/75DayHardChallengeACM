@@ -1,6 +1,6 @@
 class Solution {
     public List<Integer> NthRow(int row){
-        long res = 1 ;
+        int res = 1 ;
         List<Integer> ansRow = new ArrayList<>(); 
         ansRow.add(1) ;
         for(int i = 0 ; i < row ;i++){
